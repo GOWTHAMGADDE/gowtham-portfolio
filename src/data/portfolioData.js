@@ -9,7 +9,7 @@ export const personalInfo = {
   phone: "+91 9133252619",
   linkedin: "https://linkedin.com/in/gowtham-chowdary-gadde-26720132b",
   location: "Vijayawada, Andhra Pradesh, India",
-  portrait: "/gowtham_portrait.jpg",
+  portrait: `${import.meta.env.BASE_URL}gowtham_portrait.jpg`,
   cgpa: "8.99 / 10.00",
 };
 
